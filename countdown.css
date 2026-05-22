@@ -14,6 +14,18 @@ body {
     transition: background-color 0.5s ease;
 }
 
+@media (pointer:none),
+(pointer:coarse) {
+    body {
+        font-size: 84px;
+    }
+
+    .selector.selector {
+        font-size: 64px;
+        padding-bottom: 100px;
+    }
+}
+
 .selector {
     display: flex;
     gap: 1em;
